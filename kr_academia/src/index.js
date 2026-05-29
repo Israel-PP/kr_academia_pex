@@ -6,7 +6,6 @@ import { BrowserRouter } from "react-router-dom";
 import Header from "./componentes/Header";
 import Hero from "./componentes/Hero";
 import Planos from "./componentes/Planos";
-import Font from "./fonts/StackSansText-Regular.ttf";
 import Diferenciais from "./componentes/Diferenciais";
 import QuemSomos from "./componentes/QuemSomos";
 import Localizacao from "./componentes/Localizacao";
@@ -15,14 +14,14 @@ import Footer from "./componentes/footer";
 const GlobalStyle = createGlobalStyle`
 
   * {
-    box-sizing: border-box; /* Garante que padding e border não aumentem a largura total */
+    box-sizing: border-box; 
     margin: 0;
     padding: 0;
   }
 
   html, body, #root {
     width: 100%;
-    overflow-x: hidden; /* 👈 ISSO MATA A PARTE CINZA/BRANCA QUEBRADA NAS LATERAIS */
+    overflow-x: hidden; 
   }
 
   body {

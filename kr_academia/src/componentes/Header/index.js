@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import Logo from "../Logo";
 import Opcoes from "../OpcoesHeader";
-import Icones from "../IconesHeader";
 import { Link } from "react-router-dom";
 
 //COMPONENTES STYLED

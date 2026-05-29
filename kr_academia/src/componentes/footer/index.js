@@ -11,27 +11,6 @@ const cores = {
 };
 
 //COMPONENTES STYLED
-const TagLinha = styled.span`
-  color: ${cores.vermelho};
-  font-weight: 700;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  display: block;
-  margin-bottom: 10px;
-`;
-
-const TituloSecao = styled.h2`
-  color: ${cores.azulMarinho};
-  font-size: 36px;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin: 0 0 20px 0;
-
-  span {
-    color: ${cores.vermelho};
-  }
-`;
 
 const FooterContainer = styled.footer`
   background-color: ${cores.azulMarinho};

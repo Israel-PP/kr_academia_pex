@@ -26,23 +26,6 @@ const SectionPlanos = styled.section`
   font-family: "Arial", sans-serif;
 `;
 
-const MainTitle = styled.h2`
-  color: ${cores.vermelhoClaro};
-  font-size: 24px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-
-  &::after {
-    font-size: 18px;
-  }
-`;
-
 const ContainerGrid = styled.div`
   width: 100%;
   max-width: 1200px;

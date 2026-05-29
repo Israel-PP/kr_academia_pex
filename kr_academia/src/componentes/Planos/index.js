@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import { useEffect, useState } from "react";
-import Hero from "../Hero";
 import Cards from "../Cards";
 
 //COMPONENTE STYLED
@@ -19,32 +17,6 @@ const Titulo = styled.h2`
   font-size: 36px;
   text-align: center;
   width: 100%;
-`;
-
-const Subtitulo = styled.h3`
-  font-size: 16px;
-  font-weight: 500;
-  margin-bottom: 40px;
-`;
-
-const Resultado = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-  cursor: pointer;
-
-  p {
-    width: 200px;
-  }
-
-  img {
-    width: 100px;
-  }
-
-  &:hover {
-    border: 1px solid white;
-  }
 `;
 
 const Linha = styled.p`
